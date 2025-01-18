@@ -1,0 +1,305 @@
+{
+    "GPU": {
+        "assets": [
+            "A40",
+            "A100"
+        ],
+        "assetsDetail": {
+            "A40": [
+                "A40 8vCpus 40GB RAM 740 NVMe",
+                "A40 8vCpus 60GB RAM 1110 NVMe",
+                "A40 8vCpus 120GB RAM 1400 NVMe"
+            ],
+            "A100": [
+                "A100 3vCpus 30GB RAM 350 NVMe",
+                "A100 6vCpus 60GB RAM 700 NVMe",
+                "A100 12vCpus 120GB RAM 1400 NVMe",
+                "A100 24vCpus 250GB RAM 1400 NVMe",
+                "A100 48vCpus 500GB RAM 1400 NVMe"
+            ]
+        },
+        "assetsLocations": {
+            "A40": [
+                [
+                    "New Jersey",
+                    "Tokyo"
+                ],
+                [
+                    "London"
+                ],
+                [
+                    "Bangalore"
+                ]
+            ],
+            "A100": [
+                [
+                    "New Jersey",
+                    "London",
+                    "Frankfurt"
+                ],
+                [
+                    "Frankfurt",
+                    "Silicon Valley",
+                    "Bangalore"
+                ],
+                [
+                    "London",
+                    "Frankfurt",
+                    "Tokyo",
+                    "Bangalore"
+                ],
+                [
+                    "Frankfurt",
+                    "Tokyo",
+                    "Bangalore"
+                ],
+                [
+                    "Frankfurt",
+                    "Tokyo"
+                ]
+            ]
+        },
+        "assetsCosts": {
+            "A40": [
+                420,
+                625,
+                1250
+            ],
+            "A100": [
+                450,
+                875,
+                1750,
+                3500,
+                7000
+            ]
+        },
+        "os": [
+            "Alma Linux",
+            "Arch Linux",
+            "CentOS",
+            "Debian",
+            "Fedora",
+            "Rocky Linux",
+            "Ubuntu"
+        ]
+    },
+    "CPU": {
+        "assets": [
+            "Shared CPU"
+        ],
+        "assetsDetail": {
+            "Shared CPU": [
+                "8vCpus 32GB RAM 640 NVMe",
+                "8vCpus 32GB RAM 640 NVMe",
+                "16vCpus 64GB RAM 1280 NVMe",
+                "16vCpus 64GB RAM 1280 NVMe",
+                "24vCpus 100GB RAM 1600 NVMe",
+                "24vCpus 100GB RAM 1600 NVMe"
+            ]
+        },
+        "assetsLocations": {
+            "Shared CPU": [
+                [
+                    "New Jersey",
+                    "Chicago",
+                    "Dallas",
+                    "Seattle",
+                    "Los Angeles",
+                    "Atlanta",
+                    "Amsterdam",
+                    "London",
+                    "Frankfurt",
+                    "Silicon Valley",
+                    "Sydney",
+                    "Toronto",
+                    "Paris",
+                    "Tokyo",
+                    "Warsaw",
+                    "Madrid",
+                    "Seoul",
+                    "Miami",
+                    "Singapore",
+                    "Stockholm",
+                    "Mexico City",
+                    "Melbourne",
+                    "Mumbai",
+                    "Johannesburg",
+                    "Tel Aviv",
+                    "Bangalore",
+                    "Delhi",
+                    "Santiago",
+                    "Osaka",
+                    "Manchester"
+                ],
+                [
+                    "São Paulo"
+                ],
+                [
+                    "New Jersey",
+                    "Chicago",
+                    "Dallas",
+                    "Seattle",
+                    "Los Angeles",
+                    "Atlanta",
+                    "Amsterdam",
+                    "London",
+                    "Frankfurt",
+                    "Silicon Valley",
+                    "Sydney",
+                    "Toronto",
+                    "Paris",
+                    "Tokyo",
+                    "Warsaw",
+                    "Madrid",
+                    "Seoul",
+                    "Miami",
+                    "Singapore",
+                    "Stockholm",
+                    "Mexico City",
+                    "Melbourne",
+                    "Mumbai",
+                    "Johannesburg",
+                    "Tel Aviv",
+                    "Bangalore",
+                    "Delhi",
+                    "Santiago",
+                    "Osaka",
+                    "Manchester"
+                ],
+                [
+                    "São Paulo"
+                ],
+                [
+                    "New Jersey",
+                    "Chicago",
+                    "Dallas",
+                    "Seattle",
+                    "Los Angeles",
+                    "Atlanta",
+                    "Amsterdam",
+                    "London",
+                    "Frankfurt",
+                    "Silicon Valley",
+                    "Toronto",
+                    "Paris",
+                    "Tokyo",
+                    "Warsaw",
+                    "Madrid",
+                    "Seoul",
+                    "Miami",
+                    "Singapore",
+                    "Stockholm",
+                    "Mexico City",
+                    "Melbourne",
+                    "Mumbai",
+                    "Johannesburg",
+                    "Tel Aviv",
+                    "Bangalore",
+                    "Delhi",
+                    "Santiago",
+                    "Osaka",
+                    "Manchester"
+                ],
+                [
+                    "São Paulo"
+                ]
+            ]
+        },
+        "assetsCosts": {
+            "Shared CPU": [
+                160,
+                240,
+                320,
+                480,
+                640,
+                960
+            ]
+        },
+        "os": [
+            "Alma Linux",
+            "Alpine Linux",
+            "Arch Linux",
+            "CentOS",
+            "Debian",
+            "Fedora",
+            "FlatCar",
+            "FreeBSD",
+            "OpenBSD",
+            "Rocky Linux",
+            "Ubuntu",
+            "Windows",
+            "openSUSE"
+        ]
+    },
+    "Os": {
+        "freebsd": [
+            "FreeBSD 13 x64",
+            "FreeBSD 14 x64"
+        ],
+        "centos": [
+            "CentOS 7 x64",
+            "CentOS 7 SELinux x64",
+            "CentOS 8 Stream x64",
+            "CentOS 9 Stream x64"
+        ],
+        "archlinux": [
+            "Arch Linux x64"
+        ],
+        "windows": [
+            "Windows 2016 Standard x64",
+            "Windows 2019 Standard x64",
+            "Windows 2022 Standard x64",
+            "Windows Core 2022 Standard x64",
+            "Windows Core 2016 Standard x64",
+            "Windows Core 2019 Standard x64",
+            "Windows Core 2019 Datacenter x64",
+            "Windows Core 2022 Datacenter x64",
+            "Windows 2019 Datacenter x64",
+            "Windows 2022 Datacenter x64"
+        ],
+        "almalinux": [
+            "AlmaLinux x64",
+            "AlmaLinux 9 x64"
+        ],
+        "rockylinux": [
+            "Rocky Linux x64",
+            "Rocky Linux 9 x64"
+        ],
+        "flatcar": [
+            "Flatcar Container Linux LTS x64",
+            "Flatcar Container Linux Stable x64",
+            "Flatcar Container Linux Beta x64",
+            "Flatcar Container Linux Alpha x64"
+        ],
+        "alpinelinux": [
+            "Alpine Linux x64"
+        ],
+        "debian": [
+            "Debian 10 x64 (buster)",
+            "Debian 11 x64 (bullseye)",
+            "Debian 12 x64 (bookworm)"
+        ],
+        "opensuse": [
+            "openSUSE Leap 15 x64"
+        ],
+        "fedora": [
+            "Fedora CoreOS Stable",
+            "Fedora CoreOS Next",
+            "Fedora CoreOS Testing",
+            "Fedora 38 x64",
+            "Fedora 39 x64",
+            "Fedora 40 x64"
+        ],
+        "ubuntu": [
+            "Vultr GPU Cluster Stack Ubuntu 20.04",
+            "Ubuntu 22.04 LTS x64",
+            "Ubuntu 20.04 LTS x64",
+            "Ubuntu 23.10 x64",
+            "Ubuntu 24.04 LTS x64"
+        ],
+        "openbsd": [
+            "OpenBSD 7.4 x64",
+            "OpenBSD 7.5 x64"
+        ]
+    }
+}
